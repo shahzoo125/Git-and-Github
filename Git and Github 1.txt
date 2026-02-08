@@ -1,0 +1,37 @@
+👉Git is version control system
+
+Git ek Version Control System hai.
+Matlab:
+Ye tumhari files / code ka record rakhta hai.
+Har change ka history save karta hai.
+Agar kuch ghalat ho jaye to purana version wapas la sakte ho.
+Team me kaam karte waqt sab ke changes manage karta hai.
+ Simple words me:
+Git = Time Machine for code
+
+👉Github is a platfrom where git is used in background also gilab , bitbucket same as GIthub
+
+GitHub ek Online Platform / Cloud Service hai.
+Matlab:
+Yahan tum apna Git project upload karte ho.
+Internet par code store hota hai.
+Team members ke sath share hota hai.
+Collaboration hoti hai.
+👉 Simple words me:
+GitHub = Online parking for Git projects.
+
+
+File System         VS    Version Control
+simple file system        Version Control you 
+                          can recover.
+where you can't 
+recover your deleted 
+files 
+
+
+So, for version you should install Git
+
+
+
+
+

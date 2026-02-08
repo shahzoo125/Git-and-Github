@@ -1,0 +1,58 @@
+So for creating Version control file system you should install git  
+-git init  (run this command to initialize )
+-git status
+
+After this when you create files in folder there will be three stages 
+   1          2         3
+Untracked   Staged   Tracked
+
+Untracked: The currently stage where files are not added in Version Control System
+Tracked  : The stage where files are added in Version Control System
+
+So if i want to move file Untracked to Staged so here is commad 
+-git add filename
+
+Stage to Unstage again in Untacked 
+-git rm --cached filename 
+
+Now Staged to Tracked 
+-git commit -m "files are added to tracked"
+
+Now if you delete the file it can be recover 
+-git rm index.html
+
+To restore the file 
+-git restore index.html
+
+
+---------Github-----------
+Before we are working on Local Environment Now want to push code to Github 
+Local to Github 
+Two Methods ssh or PAC(personal access token)
+-git push
+
+Existing Repository push
+git remote add origin link 
+git push origin master   (main ki jagha master islye kyon ke local me create kya to Master name hai git status kar ke check kar saktay ho)
+
+Generate Personal Access Token(Classic)
+Settings > Developer Mode > PAC
+i have created for 30 days 
+
+-git remote -v   (to check link)
+-git remote set-url origin (link with token)
+-git branch -M main
+-git push -U origin main  or  -git push origin master
+
+
+          -Github Repo-
+Now what we can do with Github Reo
+Clone - Github to local Copy the repository of other in our Local Pc
+Fork  - Github to Github copy the repository of other User in our Repository 
+
+git clone link 
+
+
+
+
+
