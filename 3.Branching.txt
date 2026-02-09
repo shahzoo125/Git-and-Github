@@ -1,0 +1,63 @@
+Branching
+Every branch in git maintain its own copy like if we create and switch to that
+branch called any name like dev, create new file so this file in dev branch .
+it will not in old branch master
+
+main , master  these are name of brances
+
+main :   when we create repository on Github branch name wil be main
+master:  when we create repository on Local branch name wil be main
+
+it will create new branch dev (master se aik aur branch nikaal li dev )
+-git checkout -B dev   
+-git branch  (to check branch)
+
+To switch branch 
+-git switch dev
+create a file so this file belong to dev branch it will not shown in master branch
+
+So different people aik project par kaam kar rahe hai to wo copies bana lein ghy 
+like agar aik book likh rahe hai to koe konsa page likh raha ho gha koe konsa
+so they will create copies this is called Branches
+
+----------Prodection Envireonment---------
+Main code is in Master Branch , best working code 
+Staging Branch kuch code isme ho gha for testing ,end user testing etc Production me nahi dala jata
+dev branch , developer ka code push hota hai ,devops engineer etc
+
+
+Head is your latest commit
+To check Head command is :
+-git log --oneline
+
+Push branch Local to Github 
+git push origin dev
+
+-------Merge-------
+So if we want to merge Master to Dev:
+pull request > Create Pull request 
+base <> compare
+base jiske andar merge karna hai : master jisko merge karna hai
+merge
+-git checkout main
+-git pull origin main 
+
+it will merge main from dev
+
+--------Fetch, Pull---------
+-git branch fetch 
+Jitni branches github par hon ghi wo local me fetch ho jae ghi
+  
+Remote ke branch ke changes ko agar local me change karna hai to pull request bana kar local me pull karna hota hai
+
+
+
+
+
+
+
+
+
+
+
+
