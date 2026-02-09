@@ -1,0 +1,33 @@
+--Git Hooks--
+
+Agar ham ne koe hook create kya hai jisme likha hai ke ye syntyx/code commit na ho
+so wo commit nahi ho gha, ham internal checks lagha saktay hai , Pre commit hook 
+
+Hidden files ko show kar ke .git ke folder ke andar jana hai 
+Settings > search files.exclude > uncheck .git
+
+cd .git 
+ls 
+cd hooks/
+ls
+write the name before sample like pre-commit.sample
+so you can write pre-commit 
+
+vim pre-commit 
+or 
+direct create pre-commit file in hooks folder 
+
+is file me code likh saktay ho ke in files ka agar code thk nahi hai 
+like Python ka code check karnay kelye *(flake8)* use hota hai 
+
+code:shell script likhni hai
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+flake8 $files
+
+
+agar code thk na hua to jab ham commit karein ghy to nahi ho gha
+
+so there are different hooks you can write post-commmit ,pre-commit etc
+but concept is same
+
+

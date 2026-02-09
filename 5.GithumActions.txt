@@ -1,0 +1,9 @@
+Github Repo -> Deploy > Build > Test > Deploy 
+For this we used Jenkins[CI/CD pipelines]
+
+But we can also perform this on Github by using Githib Actions
+It is build in tool in Github who can perform Build, test, deploy, Scan, Sonarcube
+
+Ab agar apki repo/code ko scan karna hai 
+click on <Actions>
+there will be different packages  Pylint , Django etc
